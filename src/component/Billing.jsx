@@ -4,7 +4,10 @@ import styles from '../style';
 
 const Billing = () => {
   return (
-    <div className="grid sm:grid-cols-2 grid-cols-1 items-center mt-20">
+    <div
+      id="product"
+      className="grid sm:grid-cols-2 grid-cols-1 items-center mt-20"
+    >
       {/* left side */}
       <div className="w-full">
         <img src={bill} alt="bill" className="w-full h-full" />
@@ -21,10 +24,9 @@ const Billing = () => {
           aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
           placerat.
         </p>
-        <div className='flex mt-8 gap-4'>
-
-        <img src={google} alt="play store" />
-        <img src={apple} alt="istore" />
+        <div className="flex mt-8 gap-4">
+          <img src={google} alt="play store" />
+          <img src={apple} alt="istore" />
         </div>
       </div>
     </div>
