@@ -1,12 +1,10 @@
 import {
   Billing,
   Business,
-  Button,
   Carddeal,
   Clients,
   CTA,
   Footer,
-  GetStarted,
   Hero,
   Navbar,
   Stats,
