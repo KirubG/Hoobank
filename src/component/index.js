@@ -7,7 +7,6 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Testiomonials from "./Testiomonials";
 import Stats from "./Stats";
-import GetStarted from "./GetStarted";
 import CTA from "./CTA";
 import Clients from "./Clients";
 
@@ -23,6 +22,5 @@ export {
     Carddeal,
     Testiomonials,
     Stats,
-    GetStarted,
     CTA,
     Clients}

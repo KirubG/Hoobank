@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../style";
 import { robot, discount } from "../assets";
-import Getstarted from "./GetStarted";
+import { arrowUp } from "../assets";
 
 const Hero = () => {
   return (
@@ -33,7 +33,15 @@ const Hero = () => {
                 <span className="text-gradient">Generation</span>
               </h1>
               <div className=" hidden sm:flex sm:mr-36 xl:mr-12 mr-0 ">
-                <Getstarted />
+                <div className="rounded-full w-36 h-36 bg-blue-gradient items-center flex justify-center p-0.5 cursor-pointer">
+                  <div className="bg-primary rounded-full w-full h-full items-center flex flex-col justify-center text-2xl">
+                    <div className="flex mx-auto items-center">
+                      <span className=" mx-auto text-gradient">Get</span>
+                      <img src={arrowUp} alt="arrow" />
+                    </div>
+                    <span className=" mx-auto text-gradient">Started</span>
+                  </div>
+                </div>
               </div>
             </div>
             <h1 className="text-white flex-1 text-[52px] font-semibold sm:leading-[80px] sm:text-[72px] leading-[75px] ">
@@ -62,7 +70,15 @@ const Hero = () => {
         </div>
       </div>
       <div className="sm:hidden flex md:mr-4 mr-0 items-center justify-center ">
-        <Getstarted />
+        <div className="rounded-full w-36 h-36 bg-blue-gradient items-center flex justify-center p-0.5 cursor-pointer">
+          <div className="bg-primary rounded-full w-full h-full items-center flex flex-col justify-center text-2xl">
+            <div className="flex mx-auto items-center">
+              <span className=" mx-auto text-gradient">Get</span>
+              <img src={arrowUp} alt="arrow" />
+            </div>
+            <span className=" mx-auto text-gradient">Started</span>
+          </div>
+        </div>
       </div>
     </div>
   );
