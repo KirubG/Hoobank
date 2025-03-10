@@ -6,7 +6,7 @@ const Clients = () => {
   return (
     <div>
       <Marquee
-        speed={50}
+        speed={20}
         pauseOnHover={true}
         className="items-center w-full mt-20 flex justify-between gap-10"
       >
@@ -14,7 +14,7 @@ const Clients = () => {
           return (
             <div
               key={client.id}
-              className="flex items-center justify-between mx-20 "
+              className="flex items-center justify-between mx-10 "
             >
               <img src={client.logo} alt={client.id} width={200} />
             </div>
@@ -23,7 +23,7 @@ const Clients = () => {
       </Marquee>
       <Marquee
         direction="right"
-        speed={50}
+        speed={20}
         pauseOnHover={true}
         className="items-center w-full mt-20 flex justify-between gap-10"
       >
@@ -31,7 +31,7 @@ const Clients = () => {
           return (
             <div
               key={client.id}
-              className="flex items-center justify-between mx-20 "
+              className="flex items-center justify-between mx-10 "
             >
               <img src={client.logo} alt={client.id} width={200} />
             </div>
